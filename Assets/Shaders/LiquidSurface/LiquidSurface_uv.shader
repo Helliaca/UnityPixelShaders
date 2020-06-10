@@ -1,4 +1,4 @@
-﻿Shader "Helliaca/LiquidSurface"
+﻿Shader "Helliaca/LiquidSurface_uv"
 {
     //Shader adapted from: https://www.shadertoy.com/view/Ms2SD1
     Properties
@@ -243,6 +243,8 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
+                float3 uuv = float3(i.uv.x, 0.0, i.uv.y);
+        
                 float3 origin = _WorldSpaceCameraPos;
                 float3 dir = normalize(i.worldSpacePos.xyz - origin);
 
@@ -250,7 +252,7 @@
                 origin -= i.worldSpacePos.y;
 
                 // Get position where view ray intersects ocean
-                float3 p = heightMapTracing(origin, dir);
+                float3 p = uuv*10.0;//i.worldSpacePos;//heightMapTracing(origin, dir);
 
                 // Distance to p
                 float3 dist = p - origin;

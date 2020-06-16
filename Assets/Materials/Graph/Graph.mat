@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Weird
-  m_Shader: {fileID: 4800000, guid: 57bc9c0ce655ea6438832ae6e48bdcc0, type: 3}
+  m_Name: Graph
+  m_Shader: {fileID: 4800000, guid: 1bbedf2924e2cf64bb7ca592a8fd09d4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,40 +56,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amplitude: 0.6
     - _BumpScale: 1
-    - _Choppiness: 4
     - _Cutoff: 0.5
+    - _DataCount: 25
     - _DetailNormalMapScale: 1
-    - _Detail_iter: 5
     - _DstBlend: 0
-    - _Frequency: 0.16
+    - _FalloffExponent: 8
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HashSeed: 12.67
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SeaDiffuseExponent: 30
-    - _SeaSpecularExponent: 8.64
-    - _SeaSurfaceDepthAttentuationFactor: 3.16
-    - _SeaSurfaceDistanceAttentuationFactor: 0
-    - _SeaSurfaceHeight: -0.3
-    - _Seed: 7.55
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Test: 0
+    - _Thickness: 0.1
     - _UVSec: 0
-    - _Wave_iter: 3
+    - _YPadding: 0.34
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 0, g: 1, b: 0.034326077, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SeaAmbientColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SeaDiffuseColor: {r: 0.058, g: 0.065, b: 0.043, a: 1}
-    - _SeaSpecularColor: {r: 0, g: 1, b: 0.028794765, a: 1}
-    - _SeaSurfaceColor: {r: 0.111294046, g: 0.5754717, b: 0.12221593, a: 1}
-    - _SkyColor: {r: 0.788, g: 0.871, b: 1, a: 1}
+    - _LineColor: {r: 1, g: 0, b: 0, a: 1}

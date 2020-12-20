@@ -88,8 +88,6 @@
                 o.uv = v.uv;
                 o.worldSpacePos = mul(unity_ObjectToWorld, v.vertex);
                 return o;
-
-
             }
 
             // >>> Helper functions

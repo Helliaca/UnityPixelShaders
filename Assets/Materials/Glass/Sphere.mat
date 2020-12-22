@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LiquidContainer_surf
+  m_Name: Sphere
   m_Shader: {fileID: 4800000, guid: e467e57feaa42db44b32809395f03d04, type: 3}
   m_ShaderKeywords: _REFRACTIONBLUR_ON
   m_LightmapFlags: 4
